@@ -10,13 +10,14 @@ for(let i = 0; i< users.length; i++) {
     if(balance > 2000) {
         phoneNumbers.push(user.phone)
     }
-    totalBalance += balance
+    totalBalance +=  balance
+    
 }
 
 
 
 console.log('Phone numbers with balance more than 2000$', phoneNumbers)
-console.log('Sum of all users balance', totalBalance)
+console.log('Sum of all users balance', totalBalance.toFixed(2))
 
 
   
